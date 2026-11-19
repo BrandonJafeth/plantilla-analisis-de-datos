@@ -1,0 +1,23 @@
+[project]
+name = "plantilla-analisis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.6",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "plotly>=7.1.0",
+    "psycopg[binary]>=3.3.9",
+    "pyodbc>=5.5.0",
+    "pyreadstat>=1.3.8",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "sqlalchemy>=2.1.8",
+    "statsmodels>=0.15.0",
+]
