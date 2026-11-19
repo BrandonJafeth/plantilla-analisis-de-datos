@@ -6,9 +6,13 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Entorno
+.venv/
+.ipynb_checkpoints/
 
-# Datos crudos (no se versionan)
+# Datos crudos: no se suben (pueden ser pesados); se documenta cómo descargarlos en fuentes.md
 data/raw/*
 !data/raw/.gitkeep
+
+# Secretos
+.env
